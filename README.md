@@ -12,6 +12,6 @@ This is my attempt at my very own website! I intend for the website to be used m
 [Font Awesome](fontawesome.io)
 
 ### Other:
-[jQuery](jquery.com)
-[Scrollex](github.com/ajlkn/jquery.scrollex)
+[jQuery](jquery.com)  
+[Scrollex](github.com/ajlkn/jquery.scrollex)  
 [Responsive Tools](github.com/ajlkn/responsive-tools)
