@@ -5,9 +5,6 @@ This is my attempt at my very own website! I intend for the website to be used m
 ### Template:
 [HTML5UP](html5up.net)
 
-### Demo Images:
-[Unsplash](unsplash.com)
-
 ### Icons:
 [Font Awesome](fontawesome.io)
 
