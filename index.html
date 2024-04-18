@@ -1,173 +1,83 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
 -->
-<html>
 
+<html lang="en">
 <head>
-	<title>Shannon Hall</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
+  <title>Shannon Hall</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/60dc73312d.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 </head>
 
-<body class="landing is-preload">
+<body>
 
-	<!-- Page Wrapper -->
-	<div id="page-wrapper">
+  <!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-			<h1><a href="index.html">Shannon Hall</a></h1>
-			<nav id="nav">
-				<ul>
-					<li class="special">
-						<a href="#menu" class="menuToggle"><span>Menu</span></a>
-						<div id="menu" style="background-color: #5da1d5cc;">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About Me</a></li>
-								<li><a href="research.html">Research</a></li>
-								<li><a href="teaching.html">Teaching</a></li>
-								<li><a href="cv.html">CV</a></li>
-							</ul>
-						</div>
-					</li>
-				</ul>
-			</nav>
-		</header>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li> 
+      </ul>
+    </div>
+    </div>
+  </nav>
+  
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
 
-		<!-- Banner -->
-		<section id="banner">
-			<div class="inner">
-				<h2>Shannon Hall</h2>
-				<p>Graduate Student Studying Math at <br> the University of Tennessee, Knoxville</p>
-			</div>
-			<a href="#one" class="more scrolly">Learn More</a>
-		</section>
+      <!-- Main Info -->
+      <div class="col-md-8" style="height: 100vh;">
+        <div style="margin-top:3%; text-align:justify;">                
+          <h3>Hello!</h3>
+          <p>I'm a third-year graduate student pursuing a PhD in Mathematics at the University of Tennessee, Knoxville. As of Fall 2023, I am working with Dr. Remus Nicoara in the field of operator algebras.</p>
+        </div>
+      </div>
 
-		<!-- One -->
-		<section id="one" class="wrapper style1 special" style="background-color: #5da1d5cc;">
-			<div class="inner">
-				<header class="major">
-					<h2>About Me</h2>
-					<p>I am a first-year graduate student at the University of Tennessee, Knoxville, where I am pursuing a PhD in
-						Pure Mathematics. Currently, most of my experience is in Abstract Algebra, but I want to explore more areas
-						of math before I settle down on one. I love to learn math and am interested in all kinds of stuff! Click on
-						my picture below to learn more about me! </p>
-				</header>
+      <!-- Contact Info -->
+      <div class="col-md-3" style="height: 100vh;">
+        <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Shannon Hall</b></div><br>
+        <img class="img-responsive" src="images/cv_picture.png" alt=""><br>
 
-				<a href="about.html" style="border-bottom: none;">
-					<div class="image"><img src="images/volcard.jpg" alt="" style="border-radius: 50%;" />
-					</div>
-				</a>
-			</div>
-		</section>
+        <p><b>shall57@vols.utk.edu</b></p>
+        <p>Graduate Teaching Assistant<br>
+          Mathematics Department<br>
+          University of Tennessee, Knoxville<br>
+        </p>
 
-		<!-- Two -->
-		<section id="two" class="wrapper alt style2">
-			<section class="spotlight" style="background-color: #90ccf4c0;">
-				<div class="image"><img src="images/coursework.jpg" alt="" /></div>
-				<div class="content">
-					<h2>
-						<a href="research.html">
-							Research
-						</a>
-					</h2>
-					<p>Go here to see my research and other projects.</p>
-				</div>
-			</section>
-			<section class="spotlight" style="background-color: #ecececbe;">
-				<div class="image"><img src="images/schedule.jpg" alt="" /></div>
-				<div class="content">
-					<h2>
-						<a href="teaching.html">
-							Teaching
-						</a>
-					</h2>
-					<p>Go here to see the courses that I have taught.</p>
-				</div>
-			</section>
-			<section class="spotlight" style="background-color: #f3d250c9;">
-				<div class="image"><img src="images/cv.jpg" alt="" /></div>
-				<div class="content">
-					<h2>
-						<a href="cv.html">
-							CV
-						</a>
-					</h2>
-					<p>Here is my CV, for those who are interested!</p>
-				</div>
-			</section>
-		</section>
+      </div>
 
-		<!-- Three -->
-		<section id="three" class="wrapper style3 special" style="background-color: #f78888cc;">
-			<div class="inner">
-				<header class="major">
-					<h2>Cool math</h2>
-					<p>Here is some stuff that I find interesting, and hopefully you will too!</p>
-				</header>
-				<ul class="features">
-					<li class="icon solid fa-square-root-alt">
-						<h3><a href="youtube.html">Youtube channels</a></h3>
-						<p>Some Youtube channels that I find interesting</p>
-					</li>
-					<li class="icon solid fa-infinity">
-						<h3><a href="https://www.kleinbottle.com">Klein bottles</a></h3>
-						<p>A great website that sells Klein bottles</p>
-					</li>
-					<li class="icon solid fa-calculator">
-						<h3><a href="cubes.html">Rubik's cubes</a></h3>
-						<p>Check out some cool puzzles</p>
-					</li>
-					<!-- <li class="icon solid fa-laptop-code">
-						<h3><a href="#">Math</a></h3>
-						<p></p>
-					</li> -->
-				</ul>
-			</div>
-		</section>
+      <!-- <h3>Extra Stuff?</h3> -->
 
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<li><a href="https://twitter.com/BATMAN1497" class="icon brands fa-twitter"><span
-							class="label">Twitter</span></a>
-				</li>
-				<li><a href="https://www.instagram.com/batman1497/" class="icon brands fa-instagram"><span
-							class="label">Instagram</span></a></li>
-				<li><a href="https://github.com/shannon-hall" class="icon brands fa-github"><span
-							class="label">Instagram</span></a></li>
-				<li><a href="mailto:shall57@vols.utk.edu" class="icon solid fa-envelope"><span class="label">Email</span></a>
-				</li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Shannon Hall</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</footer>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+    </div>
+  </div>
+  <!-- /.container -->
+    
+  <!-- Template Link -->
+  <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
+    
 </body>
 
 </html>
-
-<!-- Google Sheet with website examples -->
-<!-- https://docs.google.com/spreadsheets/u/0/d/11L5FkKLRYaKf7xj2R55Mcd-Vlb4drHjN9H1gmUiDofk/htmlview#gid=0 -->
