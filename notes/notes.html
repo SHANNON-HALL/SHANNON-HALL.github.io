@@ -325,6 +325,7 @@
                     <li>To show that s.o. continuity implies that \(\omega\) can be written as a sum, begin by bounding \(\omega(x)\) by looking at the preimage of the unit disk</li>
                 </ul>
             </ul>
+
             <li><a href="Math 646 Notes 4-8-25.pdf">Day 19 (4/8/25):</a></li>
             <ul>
                 <li>Finishing the proof from last time: assuming \(\omega\) is s.o. continuous, we want to write it as a sum of \(\omega_{\xi_i, \eta_i}\)</li>
@@ -340,7 +341,7 @@
                 </ul>
                 <li>Similarly, if \(M \subset B(H)\) is a von Neumann algebra and \(\omega : M \to \mathbb{C}\) is linear and s.o. continuous, then we can write it as a sum of \(\omega_{\xi_i, \eta_i}\)</li>
                 <ul>
-                    <li>As before, we can bound \(\omega\) be a seminorm and use Hahn-Banach to extend to the entire \(B(H)\), at which point we can apply the previous result</li>
+                    <li>As before, we can bound \(\omega\) by a seminorm and use Hahn-Banach to extend to the entire \(B(H)\), at which point we can apply the previous result</li>
                 </ul>
                 <li>Intro to the geometry of projections</li>
                 <li>Some equivalent formulations of what \(p \leq q\) means for \(p, q\) projections</li>
@@ -354,6 +355,45 @@
                 </ul>
                 <li>Definition of what it means for two projections to be equivalent (using partial isometries)</li>
                 <li>Definition of what it means for \(p \prec q\) for \(p, q\) projections</li>
+            </ul>
+        </ul>
+    </section>
+    <section>
+        <h2>Geometry of Projections</h2>
+        <ul>
+            <li><a href="Math 646 Notes 4-10-25.pdf">Day 20 (4/10/25):</a></li>
+            <ul>
+                <li>Recall the definition of \(p \sim q\) from last time</li>
+                <ul>
+                    <li>Example of two projections that are not equivalent</li>
+                </ul>
+                <li>If \((p_i)\) and \((q_i)\) are both mutually orthogonal, with \(p_i \sim q_i\), then \(\sum p_i \sim \sum q_i\)</li>
+                <ul>
+                    <li>Note that the sum is the s.o. limit of finite sums here, since the projections are mutually orthogonal</li>
+                    <li>For the proof, if \(p_i \sim q_i\) via \(v_i\), then \(\sum p_i \sim \sum q_i\) via \(\sum v_i\)</li>
+                </ul>
+                <li>Recall the definition of \(p \prec q\) from last time</li>
+                <ul>
+                    <li>Example of two projections that are not comparable (so \(\prec\) is not a total order in general)</li>
+                </ul>
+                <li>Heading towards the Comparison Theorem: if \(M\) is a factor, then any two projections are comparable</li>
+                <li>Showing that \(\prec\) is essentially a partial order on projections (where we have \(\sim\) instead of \(=\))</li>
+                <ul>
+                    <li>Reflexivity is trivial</li>
+                    <li>To show transitivity, compose the two given partial isometries (drawing out a diagram is helpful)</li>
+                    <li>To show antisymmetry, we essentially mimic the Cantor-Schröder-Bernstein Theorem</li>
+                    <ul>
+                        <li>If \(p \prec q\) and \(q \prec p\), then \(p \sim q_1 \leq q\) and \(q \sim p_1 \leq p\)</li>
+                        <li>Since \(q_1 \leq q\), it follows that \(q_1 \sim p_2 \leq p_1\) (similarly \(p_1 \sim q_2 \leq q_1\))</li>
+                        <li>Repeating this process allows us to break \(p\) into infinitely many subprojections (a diagram helps here)</li>
+                        <li>Breaking up \(p\) into these subprojections and using the diagram, we can show that \(p \sim p_1\), from which we get \(p \sim q\)</li>
+                    </ul>
+                </ul>
+                <li>Comments on a homework problem</li>
+                <ul>
+                    <li>von Neumann's Ergodic Theorem: if \(\|T\| \leq 1\), then \((1 + T + \cdots + T^{n-1}) / n \overset{\text{s.o.}}{\to} p\), where \(p\) is the projection onto the fixed points of \(T\)</li>
+                    <li>A special case: \(H = \operatorname{span}\{e_1, \ldots, e_n\}\) and \(T\) permutes \(\{e_1, \ldots, e_n\}\)</li>
+                </ul>
             </ul>
         </ul>
     </section>
