@@ -395,6 +395,34 @@
                     <li>A special case: \(H = \operatorname{span}\{e_1, \ldots, e_n\}\) and \(T\) permutes \(\{e_1, \ldots, e_n\}\)</li>
                 </ul>
             </ul>
+            <li><a href="Math 646 Notes 4-15-25.pdf">Day 21 (4/15/25):</a></li>
+            <ul>
+                <li>Recall the polar decomposition for \(x \in B(H)\)</li>
+                <li>If \(M\) is a von Neumann algebra with \(x \in M\), then the \(v\) from the partial decomposition of \(x\) is in \(M\)</li>
+                <ul>
+                    <li>From here, it follows that the projections \(v^*v\) and \(vv^*\) are also in \(M\)</li>
+                    <li>For the proof, to show that \(v\) is in \(M\), show that \(v\) is in \(M''\), or that \(v\) commutes with \(M'\) (work with unitaries \(u\) in \(M'\))</li>
+                    <li>Since \(u\) commutes with \(x\) and \(|x|\), it follows that \(uvu^*\) also works in the polar decomposition of \(x\)</li>
+                    <li>By uniqueness, it follows that \(uvu^* = v\), which finishes the proof</li>
+                </ul>
+                <li>Definition of the left and right support</li>
+                <li>\(L(x)\) is the smallest projection such that \(px = x\), and \(R(x)\) is the smallest projection such that \(xq = x\)</li>
+                <ul>
+                    <li>In particular, the left and right support are equivalent and remain inside the von Neumann algebra</li>
+                </ul>
+                <li>Factors have corners: if \(M\) is a factor and \(p, q\) are nonzero projections in \(M\), then \(pMq \ne 0\)</li>
+                <ul>
+                    <li>Example of what this looks like and how this can fail outside of a factor</li>
+                    <li>Proof of why this always fails outside of a factor using central projections</li>
+                    <li>The proof of the theorem is done by contradiction, where you look at the union of all \(upu^*\) and show that it must be the identity</li>
+                </ul>
+                <li>The Comparison Theorem in factors: if \(M\) is a factor and \(p, q\) are projections in \(M\), then \(p \prec q\) or \(q \prec p\)</li>
+                <ul>
+                    <li>The idea is to break \(p\) and \(q\) into families of subprojections (satisfying certain conditions)</li>
+                    <li>Considering all such pairs of families, use Zorn's Lemma to obtain a maximal element</li>
+                    <li>This maximal element shows that \(p \prec q\) or \(q \prec p\)</li>
+                </ul>
+            </ul>
         </ul>
     </section>
     <!-- <details>
