@@ -441,6 +441,29 @@
                     <li>Claim: \(\sum e_i = 1\)</li>
                 </ul>
             </ul>
+            <li><a href="Math 646 Notes 4-24-25.pdf">Day 23 (4/24/25):</a></li>
+            <ul>
+                <li>Continuing from last time: a discrete factor is isomorphic to \(B(H)\)</li>
+                <ul>
+                    <li>Start with the case when \(M\) is finite dimensional, and take the family \((e_i)\) from last time</li>
+                    <li>Show that \(\sum e_i = 1\) by using the comparison theorem and the fact that the family is maximal</li>
+                    <li>Since the \(e_i\) are all minimal, we have \(e_1 \sim e_2 \sim \cdots \sim e_n\), so there exists a partial isometry \(v_i\) that relates \(e_i\) to \(e_1\)</li>
+                    <li>Use these \(v_i\) to define \(e_{ij}\), which act like matrix units (in particular, any \(x \in M\) can be written as a linear combination of these \(e_{ij}\))</li>
+                    <li>Define a \(*\)-morphism that sends these \(e_{ij}\) to the actual matrix units \(E_{ij} \in B(H)\) (showing that this is a \(*\)-morphism relies on properties of the \(e_{ij}\))</li>
+                    <li>For the infinite dimensional case, the proof is similar, and you'll have to extend the morphism using s.o. continuity</li>
+                </ul>
+                <li>Corollary: A finite dimensional factor is isomorphic to \(M_n(\mathbb{C})\) (so it must be discrete)</li>
+                <li>In fact, any finite dimensional \(*\)-algebra is isomorphic to a direct sum of matrix algebras</li>
+                <ul>
+                    <li>To see this, use strong induction on the dimension of the center of \(M\)</li>
+                    <li>If the dimension is one, \(M\) is a factor and we're done</li>
+                    <li>Otherwise, there is a nontrivial projection \(p\) in the center, which we can use to decompose \(M\) into \(pMp\) and \(qMq\) (where \(q = 1 - p\))</li>
+                    <li>The induction hypothesis applies to these two subalgebras, and the proof is finished</li>
+                </ul>
+                <li>Definition of a finite projection</li>
+                <li>Examples of von Neumann algebras with (or without) finite projections</li>
+                <li>Classification of factors again</li>
+            </ul>
         </ul>
     </section>
     <!-- <details>
