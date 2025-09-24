@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Shannon Hall</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+        <!-- Wrapper -->
+        <div id="wrapper">
+            <!-- Main -->
+            <div id="main">
+                <div class="inner">
+                    <!-- Header -->
+                    <header id="header">
+                        <a href="index.html" class="logo"><strong>Shannon Hall</strong> UTK Mathematics</a>
+                        <ul class="icons">
+                            <li>
+                                <a href="mailto:shall57@vols.utk.edu" class="icon solid fa-envelope"><span class="label">Email</span></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/SHANNON-HALL" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                            </li>
+                        </ul>
+                    </header>
+
+                    <!-- Content -->
+                    <section>
+                        <header class="main">
+                            <h1>Math 646 Notes</h1>
+                            <p>Dr. Remus Nicoară, Spring 2025</p>
+                        </header>
+
+                        <p>
+                            This course is an example-rich introduction to the theory of von Neumann algebras, and in particular of type II\(_1\) factors. The
+                            course emphasizes examples arising from measure theory, linear algebra, group actions, free probability, and quantum information
+                            theory.
+                        </p>
+
+                        <section>
+                            <h2>Introduction & Review</h2>
+
+                            <div class="box">
+                                <h3>
+                                    <a href="notes/math646/1-21-25.pdf">Day 1 (1/21/25)</a>
+                                </h3>
+                                <ul>
+                                    <li>Some notes on John von Neumann</li>
+                                    <li>History of von Neumann's work in function analysis</li>
+                                    <li>Some examples of Hilbert spaces</li>
+                                    <li>The Fourier Basis (Stone-Weierstrass)</li>
+                                    <li>Dimension of a Hilbert space</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3>
+                                    <a href="notes/math646/1-23-25.pdf">Day 2 (1/23/25)</a>
+                                </h3>
+                                <ul>
+                                    <li>Useful formulas in Hilbert spaces (parallelogram law and polarization)</li>
+                                    <li>Properties of operator norm</li>
+                                    <li>Examples of operators</li>
+                                    <li>Embedding \(L^\infty\) in \(L^2\)</li>
+                                    <li>Important classes of operators</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3>
+                                    <a href="notes/math646/1-28-25.pdf">Day 3 (1/28/25)</a>
+                                </h3>
+                                <ul>
+                                    <li>Important classes of operators (isometry, unitary, projection, partial isometry)</li>
+                                    <li>Properties of isometries</li>
+                                    <li>Properties of projections</li>
+                                    <li>Properties of partial isometries</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3>
+                                    <a href="notes/math646/1-30-25.pdf">Day 4 (1/30/25)</a>
+                                </h3>
+                                <ul>
+                                    <li>Equivalent definitions for a partial isometry</li>
+                                    <li>Polar decomposition</li>
+                                    <li>Continuous Functional Calculus</li>
+                                    <li>Understanding continuous functional calculus in finite dimensions</li>
+                                    <li>The exponential of an operator</li>
+                                    <li>A theorem of Fuglede</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3>
+                                    <a href="notes/math646/2-4-25.pdf">Day 5 (2/4/25)</a>
+                                </h3>
+                                <ul>
+                                    <li>Topologies on \(B(H)\) (norm, strong operator, weak operator)</li>
+                                    <li>The strong operator topology</li>
+                                    <li>The weak operator topology</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Banach-Alaoglu</li>
+                                    </ul>
+                                    <li>Topologies are distinct in general</li>
+                                    <li>Definition of \(*\)-algebra, \(C^*\)-algebra, and von Neumann algebra</li>
+                                    <li>Examples of von Neumann algebras</li>
+                                    <li>Definition of the commutant</li>
+                                    <li>Properties of the commutant</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Group Algebras</h2>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-6-25.pdf">Day 6 (2/6/25)</a></h3>
+                                <ul>
+                                    <li>Comparing the three topologies</li>
+                                    <li>\(L^\infty\) is a (commutative) von Neumann algebra</li>
+                                    <li>The Left Regular Representation of a group</li>
+                                    <li>
+                                        Definition of a group algebra \(\mathbb{C}[G]\), \(C^*\)-algebra of a group \(C^*(G)\), and von Neumann algebra of a
+                                        group \(L(G)\)
+                                    </li>
+                                    <li>Example of group algebra coming from a cyclic group, \(\mathbb{C}[\mathbb{Z}_n]\) (the circulant matrices)</li>
+                                    <li>Example of group algebra coming from the integers, \(\mathbb{C}[\mathbb{Z}]\)</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-11-25.pdf">Day 7 (2/11/25):</a></h3>
+                                <ul>
+                                    <li>Review of examples of algebras (\(C^*\) and von Neumann)</li>
+                                    <li>Discussing the homework problems</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>\(B(H)\) has no trace</li>
+                                        <li>\(DX - XD = I\) in \(B(H)\)</li>
+                                    </ul>
+                                    <li>The commutator subspace of \(L(G)\) and \(R(G)\) is zero</li>
+                                    <li>The group algebra coming from the integers \(\mathbb{C}[\mathbb{Z}]\) (in further detail)</li>
+                                    <li>Definition of the trace on \(L(G)\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Properties of the trace</li>
+                                    </ul>
+                                    <li>Embedding \(L(G)\) in \(\ell^2(G)\)</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-13-25.pdf">Day 8 (2/13/25):</a></h3>
+                                <ul>
+                                    <li>Review of the group algebra coming from the integers \(\mathbb{C}[\mathbb{Z}]\)</li>
+                                    <li>Proof that the trace on \(L(G)\) is indeed a trace</li>
+                                    <li>Working with elements of \(L(G)\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Embedding \(L(G)\) in \(\ell^2(G)\)</li>
+                                    </ul>
+                                    <li>What can we say about \(c_g\) for \(\sum_{g \in G} c_g u_g \in L(G)\)?</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>\(\sum c_g u_g\) takes \(\sum d_h \delta_h\) to \(\sum (c * d)_h \delta_h\) (so we need convolutions)</li>
+                                        <li>
+                                            For square-summable \((c_g)\), we have \(\sum c_g u_g \in L(G)\) iff the map \(d \mapsto c * d\) is bounded on
+                                            \(\ell^2(G)\)
+                                        </li>
+                                    </ul>
+                                    <li>When is \(L(G)\) a factor?</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-18-25.pdf">Day 9 (2/18/25):</a></h3>
+                                <ul>
+                                    <li>If \(G\) is an ICC group, then \(L(G)\) is a factor</li>
+                                    <li>Examples of ICC groups</li>
+                                    <li>Review of positive operators (definition and properties)</li>
+                                    <li>The GNS Construction</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Start with a unital \(*\)-algebra \(A\) with a faithful state \(\varphi\) (some examples of these)</li>
+                                        <li>Definition of inner product on \(A\) and Hilbert space \(H\)</li>
+                                        <li>
+                                            Defining embedding \(\pi : A \to B(H)\) (\(\pi(a)\) is defined on \(A\) via left multiplication, then extended to
+                                            all of \(H\))
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>The GNS Construction, AFD Algebras, & The Hyperfinite \(\text{II}_1\) Factor</h2>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-25-25.pdf">Day 10 (2/25/25):</a></h3>
+                                <ul>
+                                    <li>Review of GNS Construction from last time</li>
+                                    <li>Definition of a pre-\(C^*\)-algebra, an abstract \(C^*\)-algebra, and a concrete \(C^*\)-algebra</li>
+                                    <li>Gelfand's Theorem: Any abstract \(C^*\)-algebra is a concrete \(C^*\)-algebra</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Important examples of an abstract \(C^*\)-algebra and a pre-\(C^*\)-algebra</li>
+                                    </ul>
+                                    <li>The GNS Construction continued in more detail</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            Start with \(A\) a unital pre-\(C^*\)-algebra with \(\varphi\) a faithful state (note that norm conditions on \(A\)
+                                            are needed)
+                                        </li>
+                                        <li>Define Hilbert space \(H\) with embedding \(\pi : A \to B(H)\)</li>
+                                        <li>Proof of the GNS Construction</li>
+                                    </ul>
+                                    <li>Example of GNS Construction when \(A = C([0, 1])\)</li>
+                                    <li>Example of GNS construction when \(B = \cup_{k \geq 1} M_{2^k}(\mathbb{C})\)</li>
+                                    <li>Comparing \(\cup_{k \geq 1} M_{2^k}(\mathbb{C})\) and \(\cup_{k \geq 1} M_{3^k}(\mathbb{C})\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>After closing with the norm, these are not isomorphic (as \(C^*\)-algebras)</li>
+                                        <li>Even without the closure, these are not isomorphic (as \(*\)-algebras)</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>Use the trace and look at the set \(\{\tau(x) : x \text{ projection}\}\) (related to \(K\)-theory)</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/2-27-25.pdf">Day 11 (2/27/25):</a></h3>
+                                <ul>
+                                    <li>Embedding \(M_{2}(\mathbb{C})\) in \(M_{4}(\mathbb{C})\) using the tensor product</li>
+                                    <li>\(\cup_{k \geq 1} M_{2^k}(\mathbb{C})\) is the same as \(\otimes_{k \geq 1} M_2(\mathbb{C})\)</li>
+                                    <li>
+                                        Theorem 1: \(\otimes_{k \geq 1} M_2(\mathbb{C})\) is not isomorphic to \(\otimes_{k \geq 1} M_3(\mathbb{C})\) when
+                                        closed in norm
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>These are called AFD \(C^*\)-algebras (approximately finite dimensional)</li>
+                                    </ul>
+                                    <li>Theorem 2: These are isomorphic when closed in the strong operator topology!</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>This is called the hyperfinite type \(\text{II}_1\) factor \(R\)</li>
+                                        <li>This is the "simplest" infinite dimensional nonabelian von Neumann algebra</li>
+                                    </ul>
+                                    <li>Proof of Theorem 1</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            Both algebras have a unique trace; applying the trace to the set of projections provides an invariant \(K^1(A)\)
+                                        </li>
+                                        <li>Computing \(K^1(A)\) by showing that two projections that are close have the same trace</li>
+                                        <li>
+                                            Lemma: if two projections are close, then they are unitarily equivalent (proof involves using an intertwiner and
+                                            polar decomposition)
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/3-4-25.pdf">Day 12 (3/4/25):</a></h3>
+                                <ul>
+                                    <li>
+                                        Homework problem: If \(T_i\) and \(T\) are normal operators such that \(T_i\) converges to \(T\) in the strong operator
+                                        topology, then \({T_i}^*\) also converges to \(T^*\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>This is not true for operators in general</li>
+                                    </ul>
+                                    <li>Finishing the proof of Theorem 1 from last time</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            First, show that if two projections are close enough, then they are unitarily equivalent and thus have the same
+                                            trace (using intertwiner and polar decomposition)
+                                        </li>
+                                        <li>
+                                            Second, show that we can approximate any projection with a projection in the matrices (we can approximate a
+                                            projection with a matrix, then show that this matrix is almost a projection)
+                                        </li>
+                                    </ul>
+                                    <li>Definition of a \(\text{II}_1\) factor and the hyperfinite \(\text{II}_1\) factor \(R\)</li>
+                                    <li>Classification of factors</li>
+                                    <li>Theorem (for later): Any \(\text{II}_1\) factor contains \(R\)</li>
+                                    <li>Theorem: \(R\) is a factor</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>First, take \(x\) in the center and approximate it in \(2\)-norm by a matrix \(a\)</li>
+                                        <li>From here, use the fact that \(x\) commutes with unitaries</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/3-6-25.pdf">Day 13 (3/6/25):</a></h3>
+                                <ul>
+                                    <li>Finishing the proof that \(R\) is a factor</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>For any \(x \in R\), we can approximate \(x\) by a matrix \(y\) in \(2\)-norm</li>
+                                        <li>Since \(x\) commutes with all unitaries, it follows that \(y\) <i>almost</i> commutes with all unitaries</li>
+                                        <li>Since \(y\) <i>almost</i> commutes with all unitaries, it is <i>almost</i> a scalar</li>
+                                        <li>To prove this, look at the average of all \(uyu^*\) in one of two ways:</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>
+                                                Use the Haar measure on the compact topological group \(\mathcal{U}(M_{2^n}(\mathbb{C}))\) and integrate
+                                                \(uyu^*\) over the group
+                                            </li>
+                                            <li>
+                                                Look at the closed convex hull of the set \(\{uyu^* : u \in \mathcal{U}(M_{2^n}(\mathbb{C}))\}\) and take the
+                                                unique element of minimal norm
+                                            </li>
+                                            <li>
+                                                In either case, you get something that commutes with all unitaries (hence a scalar) that is still close to \(y\)
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                    <li>Review of examples of von Neumann algebras so far</li>
+                                    <li>Theorem: Borel Functional Calculus</li>
+                                    <li>
+                                        Example: Using Borel functional calculus to show that if \(0 \leq x \leq 1\) for \(x \in B(H)\), then \(x^n\) converges
+                                        s.o. to a projection
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Borel Functional Calculus & The Bicommutant Theorem</h2>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/3-11-25.pdf">Day 14 (3/11/25):</a></h3>
+                                <ul>
+                                    <li>Borel functional calculus continued</li>
+                                    <li>Applications of Borel functional calculus</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>\(U \in B(H)\) is unitary if and only if \(U = e^{i H}\) for \(H\) Hermitian</li>
+                                        <li>The set \(G(B(H))\) of invertible operators in \(B(H)\) is pathwise connected</li>
+                                        <li>If \(A\) is a \(C^*\)-algebra, then any element of \(A\) can be written as a linear combination of:</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>2 Hermitian elements</li>
+                                            <li>4 positive elements</li>
+                                            <li>8 unitaries</li>
+                                        </ul>
+                                        <li>
+                                            Furthermore, if \(A\) is a von Neumann algebra, then \(\operatorname{span}\mathcal{P}(A)\) closed in norm is equal
+                                            to \(A\)
+                                        </li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>In fact, if \(0 \leq \|x\| \leq 1\), then you can write \(x\) as a dyadic sum of projections</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/3-13-25.pdf">Day 15 (3/13/25):</a></h3>
+                                <ul>
+                                    <li>Proving that \(0 \leq x \leq 1\) can be written as a dyadic sum of projections</li>
+                                    <li>If \(x\) is self-adjoint, then \(\chi_{\{t\}}(x)\) is the projection onto the eigenspace of \(t\)</li>
+                                    <li>Proving Borel functional calculus</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Uniqueness of \(\phi\) (using a theorem of Baire)</li>
+                                        <li>Existence of \(\phi\) (using the Riesz-Markov-Kakutani Representation Theorem)</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/3-25-25.pdf">Day 16 (3/25/25):</a></h3>
+                                <ul>
+                                    <li>Restatement of Borel functional calculus</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Note that norm convergence is also preserved</li>
+                                    </ul>
+                                    <li>Continuing the proof from last time</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Define a functional which essentially gets the matrix entries of a continuous function \(f\)</li>
+                                        <li>
+                                            By the Riesz-Markov-Kakutani Representation Theorem, this functional is given by an integral with respect to a
+                                            certain measure
+                                        </li>
+                                        <li>
+                                            In a sense, this integral defines a sesquilinear form, which must be of the form \(\langle T \xi, \eta \rangle\)
+                                            (define \(f(x)\) to be this \(T\))
+                                        </li>
+                                        <li>The strong operator convergence of \(\phi\) follows from the Dominated Convergence Theorem</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>From here it also follows that \(f(x)\) is in the von Neumann algebra generated by \(x\)</li>
+                                        </ul>
+                                        <li>Finally, show that \(\phi\) is a \(*\)-morphism with \(\|\phi\| \leq 1\) using the definition of \(T\)</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-1-25.pdf">Day 17 (4/1/25):</a></h3>
+                                <ul>
+                                    <li>Finishing the proof of Borel functional calculus</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Showing that \(\phi\) is multiplicative</li>
+                                    </ul>
+                                    <li>Statement of von Neumann's Bicommutant Theorem</li>
+                                    <li>Finding the commutant and bicommutant for some examples</li>
+                                    <li>Lemma involving reducing subspaces (with proof)</li>
+                                    <li>Proving the Bicommutant Theorem</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>One inclusion is immediate from the properties of the commutant</li>
+                                        <li>To show that \(M'' \subset M\), we show that \(x \in M''\) implies that \(x \in \overline{M}^{\text{ s.o.}}\)</li>
+                                        <ul>
+                                            <li>In other words, we show that any open neighborhood of \(x\) intersects \(M\)</li>
+                                        </ul>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-3-25.pdf">Day 18 (4/3/25):</a></h3>
+                                <ul>
+                                    <li>Finishing the proof of the Bicommutant Theorem</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Use a basis of neighborhoods of the s.o. topology to show that \(x \in \overline{M}^{\text{ s.o.}}\)</li>
+                                        <li>Start with only one \(\xi\) for the basis</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>Consider \(K = \overline{M \xi}\), and use the reducing subspace lemma</li>
+                                            <li>
+                                                The projection \(P_K\) commutes with all of \(M\), hence also with \(x\), and this implies that \(x \xi \in K\)
+                                            </li>
+                                        </ul>
+                                        <li>For the general case, treat \(\xi_1, \ldots, \xi_n\) as a single vector in \(H^n\)</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>
+                                                We can identify \(y\) in \(M \subset B(H)\) with \(\tilde{y}\) in \(\tilde{M} \subset B(H^n) \cong M_n(B(H))\)
+                                            </li>
+                                            <li>Applying the first part to the new \(\xi\) gives the desired result</li>
+                                        </ul>
+                                    </ul>
+                                    <li>Definition of the map \(\omega_{\xi, \eta}\)</li>
+                                    <li>
+                                        For a linear functional \(\omega\), weak operator continuity and strong operator continuity are equivalent to \(\omega\)
+                                        being a finite sum of some \(\omega_{\xi_i, \eta_i}\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Some implications are relatively easy to show</li>
+                                        <li>
+                                            To show that s.o. continuity implies that \(\omega\) can be written as a sum, begin by bounding \(\omega(x)\) by
+                                            looking at the preimage of the unit disk
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-8-25.pdf">Day 19 (4/8/25):</a></h3>
+                                <ul>
+                                    <li>
+                                        Finishing the proof from last time: assuming \(\omega\) is s.o. continuous, we want to write it as a sum of
+                                        \(\omega_{\xi_i, \eta_i}\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            Since the s.o. topology is given by seminorms and \(\omega\) is s.o. continuous, it can be bounded by some seminorm
+                                        </li>
+                                        <li>
+                                            Define a functional \(\varphi\) using \(\omega\) on the set of all \((x\xi_1, \ldots, x\xi_n)\) (where the \(\xi_i\)
+                                            are given by the seminorm)
+                                        </li>
+                                        <li>Extend \(\varphi\) to the whole \(B(H)\) using the Hahn-Banach Theorem</li>
+                                        <li>
+                                            Using the Riesz Representation Theorem, we conclude that \(\varphi\) is given by an inner product, which gives the
+                                            desired result
+                                        </li>
+                                    </ul>
+                                    <li>
+                                        Remark: if two locally convex topologies have the same continuous linear functionals, then they have the same closed
+                                        convex sets
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>So, a convex set \(K \subset B(H)\) is s.o. closed iff it is w.o. closed</li>
+                                    </ul>
+                                    <li>
+                                        Similarly, if \(M \subset B(H)\) is a von Neumann algebra and \(\omega : M \to \mathbb{C}\) is linear and s.o.
+                                        continuous, then we can write it as a sum of \(\omega_{\xi_i, \eta_i}\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            As before, we can bound \(\omega\) by a seminorm and use Hahn-Banach to extend to the entire \(B(H)\), at which
+                                            point we can apply the previous result
+                                        </li>
+                                    </ul>
+                                    <li>Intro to the geometry of projections</li>
+                                    <li>Some equivalent formulations of what \(p \leq q\) means for \(p, q\) projections</li>
+                                    <li>Definition of the intersection and union of projections</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Note that \(\mathcal{P}(B(H))\) forms a complete lattice</li>
+                                    </ul>
+                                    <li>For a von Neumann algebra \(M\), an arbitrary union and intersection of projections in \(M\) is still in \(M\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Therefore, \(\mathcal{P}(M)\) also forms a complete lattice</li>
+                                    </ul>
+                                    <li>Definition of what it means for two projections to be equivalent (using partial isometries)</li>
+                                    <li>Definition of what it means for \(p \prec q\) for \(p, q\) projections</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Geometry of Projections</h2>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-10-25.pdf">Day 20 (4/10/25):</a></h3>
+                                <ul>
+                                    <li>Recall the definition of \(p \sim q\) from last time</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Example of two projections that are not equivalent</li>
+                                    </ul>
+                                    <li>If \((p_i)\) and \((q_i)\) are both mutually orthogonal, with \(p_i \sim q_i\), then \(\sum p_i \sim \sum q_i\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Note that the sum is the s.o. limit of finite sums here, since the projections are mutually orthogonal</li>
+                                        <li>For the proof, if \(p_i \sim q_i\) via \(v_i\), then \(\sum p_i \sim \sum q_i\) via \(\sum v_i\)</li>
+                                    </ul>
+                                    <li>Recall the definition of \(p \prec q\) from last time</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Example of two projections that are not comparable (so \(\prec\) is not a total order in general)</li>
+                                    </ul>
+                                    <li>Heading towards the Comparison Theorem: if \(M\) is a factor, then any two projections are comparable</li>
+                                    <li>Showing that \(\prec\) is essentially a partial order on projections (where we have \(\sim\) instead of \(=\))</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Reflexivity is trivial</li>
+                                        <li>To show transitivity, compose the two given partial isometries (drawing out a diagram is helpful)</li>
+                                        <li>To show antisymmetry, we essentially mimic the Cantor-Schröder-Bernstein Theorem</li>
+                                        <ul style="margin-bottom: 0">
+                                            <li>If \(p \prec q\) and \(q \prec p\), then \(p \sim q_1 \leq q\) and \(q \sim p_1 \leq p\)</li>
+                                            <li>Since \(q_1 \leq q\), it follows that \(q_1 \sim p_2 \leq p_1\) (similarly \(p_1 \sim q_2 \leq q_1\))</li>
+                                            <li>Repeating this process allows us to break \(p\) into infinitely many subprojections (a diagram helps here)</li>
+                                            <li>
+                                                Breaking up \(p\) into these subprojections and using the diagram, we can show that \(p \sim p_1\), from which
+                                                we get \(p \sim q\)
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                    <li>Comments on a homework problem</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            von Neumann's Ergodic Theorem: if \(\|T\| \leq 1\), then \((1 + T + \cdots + T^{n-1}) / n \overset{\text{s.o.}}{\to}
+                                            p\), where \(p\) is the projection onto the fixed points of \(T\)
+                                        </li>
+                                        <li>A special case: \(H = \operatorname{span}\{e_1, \ldots, e_n\}\) and \(T\) permutes \(\{e_1, \ldots, e_n\}\)</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-15-25.pdf">Day 21 (4/15/25):</a></h3>
+                                <ul>
+                                    <li>Recall the polar decomposition for \(x \in B(H)\)</li>
+                                    <li>
+                                        If \(M\) is a von Neumann algebra with \(x \in M\), then the \(v\) from the partial decomposition of \(x\) is in \(M\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>From here, it follows that the projections \(v^*v\) and \(vv^*\) are also in \(M\)</li>
+                                        <li>
+                                            For the proof, to show that \(v\) is in \(M\), show that \(v\) is in \(M''\), or that \(v\) commutes with \(M'\)
+                                            (work with unitaries \(u\) in \(M'\))
+                                        </li>
+                                        <li>
+                                            Since \(u\) commutes with \(x\) and \(|x|\), it follows that \(uvu^*\) also works in the polar decomposition of
+                                            \(x\)
+                                        </li>
+                                        <li>By uniqueness, it follows that \(uvu^* = v\), which finishes the proof</li>
+                                    </ul>
+                                    <li>Definition of the left and right support</li>
+                                    <li>
+                                        \(L(x)\) is the smallest projection such that \(px = x\), and \(R(x)\) is the smallest projection such that \(xq = x\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>In particular, the left and right support are equivalent and remain inside the von Neumann algebra</li>
+                                    </ul>
+                                    <li>Factors have corners: if \(M\) is a factor and \(p, q\) are nonzero projections in \(M\), then \(pMq \ne 0\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Example of what this looks like and how this can fail outside of a factor</li>
+                                        <li>Proof of why this always fails outside of a factor using central projections</li>
+                                        <li>
+                                            The proof of the theorem is done by contradiction, where you look at the union of all \(upu^*\) and show that it
+                                            must be the identity
+                                        </li>
+                                    </ul>
+                                    <li>
+                                        The Comparison Theorem in factors: if \(M\) is a factor and \(p, q\) are projections in \(M\), then \(p \prec q\) or \(q
+                                        \prec p\)
+                                    </li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>The idea is to break \(p\) and \(q\) into families of subprojections (satisfying certain conditions)</li>
+                                        <li>Considering all such pairs of families, use Zorn's Lemma to obtain a maximal element</li>
+                                        <li>This maximal element shows that \(p \prec q\) or \(q \prec p\)</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-22-25.pdf">Day 22 (4/22/25):</a></h3>
+                                <ul>
+                                    <li>Recall from last time:</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>The Comparison Theorem in factors</li>
+                                        <li>Factors have no nontrivial corners (or no holes)</li>
+                                    </ul>
+                                    <li>The Classification of Factors (using minimal and finite projections)</li>
+                                    <li>Definition of a minimal projection (no nontrivial subprojections)</li>
+                                    <li>Examples of von Neumann algebras with (or without) minimal projections</li>
+                                    <li>Remark: \(p\) is minimal iff \(pMp = \mathbb{C}p\)</li>
+                                    <li>Theorem: If \(M\) is a factor with at least a minimal projection, then \(M \cong B(H)\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>For the proof, we will use the matrix units \(E_{ij} : H \to H\)</li>
+                                        <li>
+                                            Consider the family of all \((p_i)\) such that the \(p_i\) are mutually orthogonal minimal projections, and use
+                                            Zorn's Lemma to find a maximal element \((e_i)\)
+                                        </li>
+                                        <li>Claim: \(\sum e_i = 1\)</li>
+                                    </ul>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-24-25.pdf">Day 23 (4/24/25):</a></h3>
+
+                                <ul>
+                                    <li>Continuing from last time: a discrete factor is isomorphic to \(B(H)\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Start with the case when \(M\) is finite dimensional, and take the family \((e_i)\) from last time</li>
+                                        <li>Show that \(\sum e_i = 1\) by using the comparison theorem and the fact that the family is maximal</li>
+                                        <li>
+                                            Since the \(e_i\) are all minimal, we have \(e_1 \sim e_2 \sim \cdots \sim e_n\), so there exists a partial isometry
+                                            \(v_i\) that relates \(e_i\) to \(e_1\)
+                                        </li>
+                                        <li>
+                                            Use these \(v_i\) to define \(e_{ij}\), which act like matrix units (in particular, any \(x \in M\) can be written
+                                            as a linear combination of these \(e_{ij}\))
+                                        </li>
+                                        <li>
+                                            Define a \(*\)-morphism that sends these \(e_{ij}\) to the actual matrix units \(E_{ij} \in B(H)\) (showing that
+                                            this is a \(*\)-morphism relies on properties of the \(e_{ij}\))
+                                        </li>
+                                        <li>
+                                            For the infinite dimensional case, the proof is similar, and you'll have to extend the morphism using s.o.
+                                            continuity
+                                        </li>
+                                    </ul>
+                                    <li>Corollary: A finite dimensional factor is isomorphic to \(M_n(\mathbb{C})\) (so it must be discrete)</li>
+                                    <li>In fact, any finite dimensional \(*\)-algebra is isomorphic to a direct sum of matrix algebras</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>To see this, use strong induction on the dimension of the center of \(M\)</li>
+                                        <li>If the dimension is one, \(M\) is a factor and we're done</li>
+                                        <li>
+                                            Otherwise, there is a nontrivial projection \(p\) in the center, which we can use to decompose \(M\) into \(pMp\)
+                                            and \(qMq\) (where \(q = 1 - p\))
+                                        </li>
+                                        <li>The induction hypothesis applies to these two subalgebras, and the proof is finished</li>
+                                    </ul>
+                                    <li>Definition of a finite projection</li>
+                                    <li>Examples of von Neumann algebras with (or without) finite projections</li>
+                                    <li>Classification of factors again</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2>Kazhdan's Property (T)</h2>
+
+                            <div class="box">
+                                <h3><a href="notes/math646/4-29-25.pdf">Day 24 (4/29/25):</a></h3>
+
+                                <ul>
+                                    <li>Some notes on Kazhdan and Margulis</li>
+                                    <li>Recap on group representations</li>
+                                    <li>How can we compare two representations?</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            The weak containment property: \(\pi \prec \rho\) if all coefficients of \(\pi\) can be approximated by a finite sum
+                                            of coefficients of \(\rho\)
+                                        </li>
+                                    </ul>
+                                    <li>The Fell topology for representations</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Describe a subbasis of neighborhoods for \(\pi\)</li>
+                                        <li>Note that \(\pi \prec \rho\) implies that \(\rho\) is in any neighborhood of \(\pi\)</li>
+                                    </ul>
+                                    <li>What does it look like for \(1_G \prec \rho\)?</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Rewrite the basis to obtain a basis of neighborhoods of \(1_G\)</li>
+                                        <li>Ultimately, for a representation to be close to \(1_G\), it must have almost invariant vectors</li>
+                                    </ul>
+                                    <li>Definition of almost invariant vectors</li>
+                                    <li>Definition of Kazhdan's Property (T)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Property (T) means that the trivial representation is isolated</li>
+                                        <li>This is called a "rigidity" property</li>
+                                    </ul>
+                                    <li>Examples of groups with Property (T) (and nonexamples)</li>
+                                </ul>
+                            </div>
+
+                            <div class="box">
+                                <h2><a href="notes/math646/5-1-25.pdf">Day 25 (5/1/25):</a></h2>
+
+                                <ul>
+                                    <li>Recall definition of property (T) and examples from last time</li>
+                                    <li>Proving that \(\operatorname{SL}(n, \mathbb{Z})\) has property (T) for \(n \geq 3\)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>Consider the case when \(n = 3\)</li>
+                                        <li>There is an interesting subgroup \(G\) satisfying \(G = \mathbb{Z}^2 \rtimes \operatorname{SL}(2, \mathbb{Z})\)</li>
+                                        <li>
+                                            There are several ways to embed \(G\) in \(\operatorname{SL}(3, \mathbb{Z})\), and their union is the whole group
+                                        </li>
+                                        <li>The proof follows from the following result</li>
+                                    </ul>
+                                    <li>\(\mathbb{Z}^2 \subset \mathbb{Z}^2 \rtimes \operatorname{SL}(2, \mathbb{Z})\) has relative property (T)</li>
+                                    <ul style="margin-bottom: 0">
+                                        <li>
+                                            Using a specific \(\varepsilon\) and finite set \(Q\), we show that a unitary representation \(\pi\) with an almost
+                                            invariant vector has an invariant vector
+                                        </li>
+                                        <li>Extend \(\pi\) to \(\text{v.N.}(\mathbb{Z}^2) \cong L^\infty(\mathbb{T}^2, \mu)\)</li>
+                                        <li>
+                                            Assume that \(\pi\) has no invariant vectors, and rephrase what a invariant vector means in terms of characteristic
+                                            functions
+                                        </li>
+                                        <li>
+                                            Identify \(\mathbb{T}^2\) with \((-1/2, 1/2]^2\), and translate information on the problem to information about
+                                            \(\mu = \mu_{\xi, \xi}\)
+                                        </li>
+                                        <li>
+                                            Using a probability measure defined using \(\mu\) and the information we have about \(\mu\), along with a clever
+                                            partition of the space, we obtain a contradiction
+                                        </li>
+                                    </ul>
+                                    <li>Important takeaway: changing a problem about operators to a problem about measures can be useful</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <hr class="major" />
+                    </section>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div id="sidebar">
+                <div class="inner">
+                    <!-- Menu -->
+                    <nav id="menu">
+                        <header class="major">
+                            <h2>Menu</h2>
+                        </header>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pdfs/cv.pdf">CV</a></li>
+                            <li><a href="research.html">Research</a></li>
+                            <li><a href="teaching.html">Teaching</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Contact me section -->
+                    <section>
+                        <header class="major">
+                            <h2>Contact me</h2>
+                        </header>
+                        <ul class="contact">
+                            <li class="icon solid fa-envelope">
+                                <a href="mailto:shall57@vols.utk.edu">shall57@vols.utk.edu</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Footer -->
+                    <footer id="footer">
+                        <p class="copyright">
+                            &copy; Shannon Hall. All rights reserved. Design:
+                            <a href="https://html5up.net">HTML5 UP</a>.
+                        </p>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    </body>
+</html>
